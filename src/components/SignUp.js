@@ -33,10 +33,8 @@ const SignUp = () => {
         if (data.error) {
           setError(data.error.message);
         } else {
-          // Successful signup
           console.log("User has successfully signed up.");
 
-          // Reset the form
           setEmail("");
           setPassword("");
           setConfirmPassword("");
